@@ -1,4 +1,4 @@
-// Product osztály:
+// Product class:
 // id,
 // catId,
 // name,
@@ -18,6 +18,6 @@ export class Product {
   image: string = '';
   price: number = 0;
   stock: number = 0;
-  featured: string = '';
+  featured: boolean = false;
   active: boolean = false;
 }

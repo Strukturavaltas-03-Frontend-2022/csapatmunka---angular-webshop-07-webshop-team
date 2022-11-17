@@ -1,4 +1,4 @@
-// Category osztály:
+// Category class:
 // id,
 // name,
 // description
