@@ -1,15 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+import { Product } from 'src/app/model/product';
+import { ProductService } from 'src/app/service/product.service';
 
 @Component({
   selector: 'app-cat02',
   templateUrl: './cat02.component.html',
-  styleUrls: ['./cat02.component.scss']
+  styleUrls: ['./cat02.component.scss'],
 })
 export class Cat02Component implements OnInit {
+  list: Product[] = this.productService.list;
 
-  constructor() { }
+  searchPhrase: string = '';
 
-  ngOnInit(): void {
-  }
+  constructor(private productService: ProductService) {}
 
+  ngOnInit(): void {}
 }
