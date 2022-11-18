@@ -1,0 +1,71 @@
+<div class="row">
+  <div>
+    <h1>Featured Adventures</h1>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-12">
+    <div class="input-group mb-3">
+      <input
+        [(ngModel)]="searchPhrase"
+        type="text"
+        class="form-control"
+        placeholder="Enter search phrase for movie title"
+        aria-label="Enter search phrase for movie title"
+      />
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <!-- export class Product {
+            [x: string]: any;
+            id: number = 0;
+            catId: number = 0;
+            name: string = '';
+            description: string = '';
+            image: string = '';
+            price: number = 0;
+            stock: number = 0;
+            featured: boolean = false;
+            active: boolean = false;
+          } -->
+          <th>ID</th>
+
+          <th>Title</th>
+          <!-- <th>Category ID</th> -->
+          <th>Description</th>
+          <th>Image</th>
+          <th>Price</th>
+          <th>Stock</th>
+          <th>Featured</th>
+          <th>Active</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="
+            let movie of list
+              | filter: searchPhrase:'name'
+              | filterCategory: 'catId':3
+          "
+        >
+          <td>{{ movie.id }}</td>
+          <!-- <td>{{ movie.catId }}</td> -->
+          <td>{{ movie.name }}</td>
+          <td>{{ movie.description }}</td>
+          <td>{{ movie.image }}</td>
+          <td>{{ movie.price }}</td>
+          <td>{{ movie.stock }}</td>
+          <td>{{ movie.featured }}</td>
+          <td>{{ movie.active }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
