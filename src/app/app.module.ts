@@ -12,6 +12,7 @@ import { HomeComponent } from './page/home/home.component';
 import { Cat03Component } from './page/cat03/cat03.component';
 import { FilterPipe } from './pipe/filter.pipe';
 import { FilterCategoryPipe } from './pipe/filter-category.pipe';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FilterCategoryPipe } from './pipe/filter-category.pipe';
     Cat03Component,
     FilterPipe,
     FilterCategoryPipe,
+    ProductCardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
