@@ -18,6 +18,15 @@
   </div>
 </div>
 
+<div
+  *ngFor="
+    let movie of list | filter: searchPhrase:'name' | filterCategory: 'catId':2
+  "
+  class="row"
+>
+  <app-product-card [movie]="movie"></app-product-card>
+</div>
+
 <div class="row">
   <div class="col-12">
     <table class="table table-striped">

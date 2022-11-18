@@ -13,7 +13,7 @@ export class ProductService {
       name: 'Rich and Famous (Gong woo ching)',
       description:
         'Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.',
-      image: 'http://dummyimage.com/198x100.png/dddddd/000000',
+      image: '../../../assets/img/1911.png',
       price: 2585,
       stock: 5,
       featured: true,
@@ -24,8 +24,8 @@ export class ProductService {
       catId: 2,
       name: 'The Epic of Everest',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-      image: 'http://dummyimage.com/217x100.png/cc0000/ffffff',
+        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
+      image: '../../../assets/img/1912.png',
       price: 2974,
       stock: 9,
       featured: false,
@@ -37,7 +37,7 @@ export class ProductService {
       name: 'Baraka',
       description:
         'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.',
-      image: 'http://dummyimage.com/184x100.png/dddddd/000000',
+      image: '../../../assets/img/1913.png',
       price: 2690,
       stock: 9,
       featured: true,
@@ -49,7 +49,7 @@ export class ProductService {
       name: 'MirrorMask',
       description:
         'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
-      image: 'http://dummyimage.com/152x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1914.png',
       price: 3007,
       stock: 3,
       featured: false,
@@ -61,7 +61,7 @@ export class ProductService {
       name: 'Flower of Evil, The (Fleur du mal, La)',
       description:
         'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.',
-      image: 'http://dummyimage.com/111x100.png/dddddd/000000',
+      image: '../../../assets/img/1915.png',
       price: 2623,
       stock: 8,
       featured: false,
@@ -73,7 +73,7 @@ export class ProductService {
       name: 'Wanted! (Nachbarinnen)',
       description:
         'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.',
-      image: 'http://dummyimage.com/155x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1916.png',
       price: 2846,
       stock: 2,
       featured: false,
@@ -85,7 +85,7 @@ export class ProductService {
       name: 'RFK Must Die: The Assassination of Bobby Kennedy',
       description:
         'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
-      image: 'http://dummyimage.com/182x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1917.png',
       price: 3063,
       stock: 8,
       featured: false,
@@ -97,7 +97,7 @@ export class ProductService {
       name: 'From Here to Eternity',
       description:
         'Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.',
-      image: 'http://dummyimage.com/118x100.png/dddddd/000000',
+      image: '../../../assets/img/1918.png',
       price: 2916,
       stock: 4,
       featured: false,
@@ -109,7 +109,7 @@ export class ProductService {
       name: 'Trust',
       description:
         'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
-      image: 'http://dummyimage.com/206x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1919.png',
       price: 2783,
       stock: 10,
       featured: true,
@@ -121,7 +121,7 @@ export class ProductService {
       name: 'Looker',
       description:
         'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
-      image: 'http://dummyimage.com/110x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1920.png',
       price: 3122,
       stock: 6,
       featured: true,
@@ -133,7 +133,7 @@ export class ProductService {
       name: 'Loosies',
       description:
         'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
-      image: 'http://dummyimage.com/121x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1921.png',
       price: 2533,
       stock: 4,
       featured: true,
@@ -144,8 +144,8 @@ export class ProductService {
       catId: 3,
       name: 'Quarantine',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-      image: 'http://dummyimage.com/134x100.png/ff4444/ffffff',
+        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
+      image: '../../../assets/img/1922.png',
       price: 3195,
       stock: 10,
       featured: true,
@@ -157,7 +157,7 @@ export class ProductService {
       name: 'Nude Nuns with Big Guns',
       description:
         'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
-      image: 'http://dummyimage.com/217x100.png/dddddd/000000',
+      image: '../../../assets/img/1923.png',
       price: 2950,
       stock: 1,
       featured: false,
@@ -169,7 +169,7 @@ export class ProductService {
       name: 'Paddington',
       description:
         'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
-      image: 'http://dummyimage.com/123x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1924.png',
       price: 3416,
       stock: 5,
       featured: true,
@@ -181,7 +181,7 @@ export class ProductService {
       name: 'Lady from Shanghai, The',
       description:
         'Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
-      image: 'http://dummyimage.com/209x100.png/dddddd/000000',
+      image: '../../../assets/img/1925.png',
       price: 2766,
       stock: 3,
       featured: false,
@@ -192,7 +192,7 @@ export class ProductService {
       catId: 2,
       name: 'Letter, The (La lettre)',
       description: 'Aliquam erat volutpat. In congue. Etiam justo.',
-      image: 'http://dummyimage.com/190x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1926.png',
       price: 3014,
       stock: 7,
       featured: true,
@@ -203,8 +203,8 @@ export class ProductService {
       catId: 3,
       name: 'Belle Starr',
       description:
-        'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
-      image: 'http://dummyimage.com/150x100.png/5fa2dd/ffffff',
+        'Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Nulla dapibus dolor vel est.',
+      image: '../../../assets/img/1927.png',
       price: 2544,
       stock: 3,
       featured: false,
@@ -216,7 +216,7 @@ export class ProductService {
       name: 'One for the Money',
       description:
         'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.',
-      image: 'http://dummyimage.com/170x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1928.png',
       price: 2561,
       stock: 10,
       featured: false,
@@ -228,7 +228,7 @@ export class ProductService {
       name: 'Missing, The',
       description:
         'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',
-      image: 'http://dummyimage.com/162x100.png/dddddd/000000',
+      image: '../../../assets/img/1929.png',
       price: 3156,
       stock: 4,
       featured: false,
@@ -239,8 +239,8 @@ export class ProductService {
       catId: 2,
       name: 'Bingo Long Traveling All-Stars & Motor Kings, The',
       description:
-        'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
-      image: 'http://dummyimage.com/133x100.png/5fa2dd/ffffff',
+        'Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.',
+      image: '../../../assets/img/1930.png',
       price: 2917,
       stock: 10,
       featured: true,
@@ -252,7 +252,7 @@ export class ProductService {
       name: 'Living with the Fosters',
       description:
         'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
-      image: 'http://dummyimage.com/125x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1931.png',
       price: 2528,
       stock: 6,
       featured: false,
@@ -264,7 +264,7 @@ export class ProductService {
       name: 'Samurai Rebellion (Jôi-uchi: Hairyô tsuma shimatsu)',
       description:
         'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',
-      image: 'http://dummyimage.com/230x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1932.png',
       price: 3418,
       stock: 3,
       featured: true,
@@ -276,7 +276,7 @@ export class ProductService {
       name: 'Blue Crush',
       description:
         'Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
-      image: 'http://dummyimage.com/203x100.png/dddddd/000000',
+      image: '../../../assets/img/1933.png',
       price: 2776,
       stock: 8,
       featured: true,
@@ -288,7 +288,7 @@ export class ProductService {
       name: 'Laputa: Castle in the Sky (Tenkû no shiro Rapyuta)',
       description:
         'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.',
-      image: 'http://dummyimage.com/235x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1934.png',
       price: 3341,
       stock: 3,
       featured: false,
@@ -299,7 +299,7 @@ export class ProductService {
       catId: 3,
       name: 'Small Town Gay Bar',
       description: 'Fusce consequat. Nulla nisl. Nunc nisl.',
-      image: 'http://dummyimage.com/177x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1935.png',
       price: 3309,
       stock: 7,
       featured: false,
@@ -311,7 +311,7 @@ export class ProductService {
       name: 'Deuce Bigalow: Male Gigolo',
       description:
         'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',
-      image: 'http://dummyimage.com/161x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1936.png',
       price: 2917,
       stock: 10,
       featured: true,
@@ -323,7 +323,7 @@ export class ProductService {
       name: 'Wrong Turn 3: Left for Dead',
       description:
         'Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.',
-      image: 'http://dummyimage.com/233x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1937.png',
       price: 2941,
       stock: 5,
       featured: false,
@@ -335,7 +335,7 @@ export class ProductService {
       name: 'Home Sweet Home',
       description:
         'Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.',
-      image: 'http://dummyimage.com/238x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1938.png',
       price: 3359,
       stock: 8,
       featured: false,
@@ -347,7 +347,7 @@ export class ProductService {
       name: 'Lakota Woman: Siege at Wounded Knee',
       description:
         'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.',
-      image: 'http://dummyimage.com/162x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1939.png',
       price: 3242,
       stock: 6,
       featured: true,
@@ -359,7 +359,7 @@ export class ProductService {
       name: 'Last Remake of Beau Geste, The',
       description:
         'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.',
-      image: 'http://dummyimage.com/142x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1940.png',
       price: 3390,
       stock: 2,
       featured: true,
@@ -371,7 +371,7 @@ export class ProductService {
       name: 'Julian Po',
       description:
         'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.',
-      image: 'http://dummyimage.com/148x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1941.png',
       price: 3162,
       stock: 5,
       featured: true,
@@ -383,7 +383,7 @@ export class ProductService {
       name: 'Silencers, The',
       description:
         'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-      image: 'http://dummyimage.com/166x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1942.png',
       price: 2780,
       stock: 9,
       featured: false,
@@ -395,7 +395,7 @@ export class ProductService {
       name: 'Cleopatra',
       description:
         'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.',
-      image: 'http://dummyimage.com/147x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1943.png',
       price: 2898,
       stock: 8,
       featured: false,
@@ -407,7 +407,7 @@ export class ProductService {
       name: 'Madhouse',
       description:
         'Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.',
-      image: 'http://dummyimage.com/218x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1944.png',
       price: 2502,
       stock: 8,
       featured: false,
@@ -418,7 +418,7 @@ export class ProductService {
       catId: 2,
       name: 'Shoah',
       description: 'Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-      image: 'http://dummyimage.com/238x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1945.png',
       price: 3053,
       stock: 8,
       featured: true,
@@ -430,7 +430,7 @@ export class ProductService {
       name: 'Drift',
       description:
         'Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.',
-      image: 'http://dummyimage.com/163x100.png/dddddd/000000',
+      image: '../../../assets/img/1946.png',
       price: 3405,
       stock: 7,
       featured: true,
@@ -441,7 +441,7 @@ export class ProductService {
       catId: 2,
       name: '7500',
       description: 'Fusce consequat. Nulla nisl. Nunc nisl.',
-      image: 'http://dummyimage.com/249x100.png/dddddd/000000',
+      image: '../../../assets/img/1947.png',
       price: 2649,
       stock: 8,
       featured: false,
@@ -453,7 +453,7 @@ export class ProductService {
       name: 'Amazing Grace',
       description:
         'Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.',
-      image: 'http://dummyimage.com/168x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1948.png',
       price: 3203,
       stock: 8,
       featured: true,
@@ -464,8 +464,8 @@ export class ProductService {
       catId: 2,
       name: 'Starbuck',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
-      image: 'http://dummyimage.com/243x100.png/5fa2dd/ffffff',
+        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.',
+      image: '../../../assets/img/1949.png',
       price: 2811,
       stock: 4,
       featured: true,
@@ -477,7 +477,7 @@ export class ProductService {
       name: 'Prom Night',
       description:
         'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.',
-      image: 'http://dummyimage.com/221x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1950.png',
       price: 3006,
       stock: 3,
       featured: false,
@@ -489,7 +489,7 @@ export class ProductService {
       name: 'Possession',
       description:
         'In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.',
-      image: 'http://dummyimage.com/247x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1951.png',
       price: 3007,
       stock: 4,
       featured: false,
@@ -501,7 +501,7 @@ export class ProductService {
       name: "Small Change (Argent de poche, L')",
       description:
         'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
-      image: 'http://dummyimage.com/200x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1952.png',
       price: 3135,
       stock: 4,
       featured: false,
@@ -513,7 +513,7 @@ export class ProductService {
       name: 'Tales of Ordinary Madness (Storie di Ordinaria Follia)',
       description:
         'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',
-      image: 'http://dummyimage.com/239x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1953.png',
       price: 3448,
       stock: 8,
       featured: false,
@@ -525,7 +525,7 @@ export class ProductService {
       name: 'Long Time Dead',
       description:
         'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-      image: 'http://dummyimage.com/250x100.png/dddddd/000000',
+      image: '../../../assets/img/1954.png',
       price: 2818,
       stock: 6,
       featured: true,
@@ -537,7 +537,7 @@ export class ProductService {
       name: 'Breach, The (Rupture, La)',
       description:
         'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',
-      image: 'http://dummyimage.com/114x100.png/dddddd/000000',
+      image: '../../../assets/img/1955.png',
       price: 2731,
       stock: 1,
       featured: true,
@@ -549,7 +549,7 @@ export class ProductService {
       name: "Don't Deliver Us from Evil (Mais ne nous délivrez pas du mal)",
       description:
         'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-      image: 'http://dummyimage.com/172x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1956.png',
       price: 2915,
       stock: 4,
       featured: false,
@@ -561,7 +561,7 @@ export class ProductService {
       name: 'Promise Me This (Zavet)',
       description:
         'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-      image: 'http://dummyimage.com/234x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1957.png',
       price: 2504,
       stock: 6,
       featured: true,
@@ -573,7 +573,7 @@ export class ProductService {
       name: 'Vera Cruz',
       description:
         'Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.',
-      image: 'http://dummyimage.com/177x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1958.png',
       price: 3056,
       stock: 3,
       featured: false,
@@ -585,7 +585,7 @@ export class ProductService {
       name: 'Shadow Company',
       description:
         'In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.',
-      image: 'http://dummyimage.com/167x100.png/dddddd/000000',
+      image: '../../../assets/img/1959.png',
       price: 3306,
       stock: 2,
       featured: false,
@@ -596,8 +596,8 @@ export class ProductService {
       catId: 2,
       name: 'Princess (Prinsessa)',
       description:
-        'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
-      image: 'http://dummyimage.com/200x100.png/dddddd/000000',
+        'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.',
+      image: '../../../assets/img/1960.png',
       price: 3140,
       stock: 2,
       featured: false,
@@ -609,7 +609,7 @@ export class ProductService {
       name: 'Winning Team, The',
       description:
         'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
-      image: 'http://dummyimage.com/205x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1961.png',
       price: 2606,
       stock: 9,
       featured: true,
@@ -621,7 +621,7 @@ export class ProductService {
       name: 'Winter Kills',
       description:
         'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
-      image: 'http://dummyimage.com/228x100.png/dddddd/000000',
+      image: '../../../assets/img/1962.png',
       price: 3281,
       stock: 4,
       featured: true,
@@ -633,7 +633,7 @@ export class ProductService {
       name: 'Cencoroll',
       description:
         'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-      image: 'http://dummyimage.com/102x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1963.png',
       price: 2993,
       stock: 4,
       featured: false,
@@ -644,7 +644,7 @@ export class ProductService {
       catId: 2,
       name: 'So Much Water',
       description: 'Sed ante. Vivamus tortor. Duis mattis egestas metus.',
-      image: 'http://dummyimage.com/204x100.png/dddddd/000000',
+      image: '../../../assets/img/1964.png',
       price: 3425,
       stock: 4,
       featured: true,
@@ -655,8 +655,8 @@ export class ProductService {
       catId: 2,
       name: 'Invisible Woman, The',
       description:
-        'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.',
-      image: 'http://dummyimage.com/243x100.png/5fa2dd/ffffff',
+        'Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Duis faucibus accumsan odio.',
+      image: '../../../assets/img/1965.png',
       price: 2965,
       stock: 7,
       featured: true,
@@ -668,7 +668,7 @@ export class ProductService {
       name: 'Door in the Floor, The',
       description:
         'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
-      image: 'http://dummyimage.com/121x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1966.png',
       price: 3371,
       stock: 7,
       featured: true,
@@ -680,7 +680,7 @@ export class ProductService {
       name: 'Tattoo Nation',
       description:
         'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
-      image: 'http://dummyimage.com/229x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1967.png',
       price: 2737,
       stock: 10,
       featured: false,
@@ -692,7 +692,7 @@ export class ProductService {
       name: 'Night and Day (Bam gua nat)',
       description:
         'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
-      image: 'http://dummyimage.com/164x100.png/dddddd/000000',
+      image: '../../../assets/img/1968.png',
       price: 2677,
       stock: 4,
       featured: true,
@@ -704,7 +704,7 @@ export class ProductService {
       name: 'Strong Man, The',
       description:
         'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',
-      image: 'http://dummyimage.com/152x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1969.png',
       price: 2797,
       stock: 9,
       featured: true,
@@ -716,7 +716,7 @@ export class ProductService {
       name: 'In the Midst of Life (Au coeur de la vie)',
       description:
         'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
-      image: 'http://dummyimage.com/229x100.png/dddddd/000000',
+      image: '../../../assets/img/1970.png',
       price: 3046,
       stock: 9,
       featured: true,
@@ -728,7 +728,7 @@ export class ProductService {
       name: 'Summer Stock',
       description:
         'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.',
-      image: 'http://dummyimage.com/203x100.png/dddddd/000000',
+      image: '../../../assets/img/1971.png',
       price: 3150,
       stock: 1,
       featured: false,
@@ -740,7 +740,7 @@ export class ProductService {
       name: 'Happiness (Schastye)',
       description:
         'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
-      image: 'http://dummyimage.com/148x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1972.png',
       price: 3393,
       stock: 5,
       featured: true,
@@ -752,7 +752,7 @@ export class ProductService {
       name: 'Prom Night',
       description:
         'Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-      image: 'http://dummyimage.com/163x100.png/dddddd/000000',
+      image: '../../../assets/img/1973.png',
       price: 3378,
       stock: 10,
       featured: false,
@@ -764,7 +764,7 @@ export class ProductService {
       name: 'Eye for an Eye',
       description:
         'Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.',
-      image: 'http://dummyimage.com/226x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1974.png',
       price: 3158,
       stock: 3,
       featured: false,
@@ -776,7 +776,7 @@ export class ProductService {
       name: 'The Golden Voyage of Sinbad',
       description:
         'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
-      image: 'http://dummyimage.com/171x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1975.png',
       price: 2577,
       stock: 9,
       featured: true,
@@ -788,7 +788,7 @@ export class ProductService {
       name: 'Theodora Goes Wild',
       description:
         'Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-      image: 'http://dummyimage.com/228x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1976.png',
       price: 3104,
       stock: 8,
       featured: true,
@@ -800,7 +800,7 @@ export class ProductService {
       name: 'Lucky',
       description:
         'Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-      image: 'http://dummyimage.com/115x100.png/dddddd/000000',
+      image: '../../../assets/img/1977.png',
       price: 2953,
       stock: 3,
       featured: true,
@@ -811,8 +811,8 @@ export class ProductService {
       catId: 3,
       name: 'Shepard & Dark',
       description:
-        'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
-      image: 'http://dummyimage.com/224x100.png/ff4444/ffffff',
+        'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',
+      image: '../../../assets/img/1978.png',
       price: 3413,
       stock: 5,
       featured: true,
@@ -824,7 +824,7 @@ export class ProductService {
       name: 'Circus, The',
       description:
         'Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.',
-      image: 'http://dummyimage.com/158x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1979.png',
       price: 3115,
       stock: 9,
       featured: true,
@@ -836,7 +836,7 @@ export class ProductService {
       name: 'Melvin Goes to Dinner',
       description:
         'Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.',
-      image: 'http://dummyimage.com/132x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1980.png',
       price: 3335,
       stock: 7,
       featured: true,
@@ -848,7 +848,7 @@ export class ProductService {
       name: 'Magic & Bird: A Courtship of Rivals',
       description:
         'Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.',
-      image: 'http://dummyimage.com/149x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1981.png',
       price: 2933,
       stock: 8,
       featured: true,
@@ -860,7 +860,7 @@ export class ProductService {
       name: 'Enter the Phoenix (Da lao ai mei li)',
       description:
         'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.',
-      image: 'http://dummyimage.com/116x100.png/dddddd/000000',
+      image: '../../../assets/img/1982.png',
       price: 2644,
       stock: 4,
       featured: true,
@@ -872,7 +872,7 @@ export class ProductService {
       name: 'Seven Sinners',
       description:
         'Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.',
-      image: 'http://dummyimage.com/108x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1983.png',
       price: 3041,
       stock: 10,
       featured: true,
@@ -884,7 +884,7 @@ export class ProductService {
       name: 'Student, The (El estudiante)',
       description:
         'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
-      image: 'http://dummyimage.com/187x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1984.png',
       price: 2743,
       stock: 10,
       featured: false,
@@ -896,7 +896,7 @@ export class ProductService {
       name: "'Salem's Lot",
       description:
         'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-      image: 'http://dummyimage.com/173x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1985.png',
       price: 2608,
       stock: 4,
       featured: false,
@@ -908,7 +908,7 @@ export class ProductService {
       name: 'A Rumor Of War',
       description:
         'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.',
-      image: 'http://dummyimage.com/111x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1986.png',
       price: 2569,
       stock: 10,
       featured: false,
@@ -920,7 +920,7 @@ export class ProductService {
       name: 'Fourth Kind, The',
       description:
         'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
-      image: 'http://dummyimage.com/173x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1987.png',
       price: 2741,
       stock: 9,
       featured: true,
@@ -932,7 +932,7 @@ export class ProductService {
       name: 'Mad Hot Ballroom',
       description:
         'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',
-      image: 'http://dummyimage.com/248x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1988.png',
       price: 2892,
       stock: 5,
       featured: true,
@@ -944,7 +944,7 @@ export class ProductService {
       name: 'Pornstar: The Legend of Ron Jeremy',
       description:
         'Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.',
-      image: 'http://dummyimage.com/230x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1989.png',
       price: 2637,
       stock: 5,
       featured: true,
@@ -956,7 +956,7 @@ export class ProductService {
       name: 'Shock to the System, A',
       description:
         'Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.',
-      image: 'http://dummyimage.com/219x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1990.png',
       price: 2820,
       stock: 8,
       featured: false,
@@ -968,7 +968,7 @@ export class ProductService {
       name: 'Tokyo!',
       description:
         'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
-      image: 'http://dummyimage.com/116x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1991.png',
       price: 3038,
       stock: 8,
       featured: true,
@@ -980,7 +980,7 @@ export class ProductService {
       name: 'Pandora and the Flying Dutchman',
       description:
         'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',
-      image: 'http://dummyimage.com/113x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1992.png',
       price: 2752,
       stock: 1,
       featured: true,
@@ -991,8 +991,8 @@ export class ProductService {
       catId: 2,
       name: 'Man of a Thousand Faces',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-      image: 'http://dummyimage.com/231x100.png/dddddd/000000',
+        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
+      image: '../../../assets/img/1993.png',
       price: 2651,
       stock: 5,
       featured: true,
@@ -1004,7 +1004,7 @@ export class ProductService {
       name: 'Lunch Break',
       description:
         'In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.',
-      image: 'http://dummyimage.com/150x100.png/cc0000/ffffff',
+      image: '../../../assets/img/1994.png',
       price: 3351,
       stock: 2,
       featured: true,
@@ -1015,8 +1015,8 @@ export class ProductService {
       catId: 2,
       name: 'Rumble on the Docks',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
-      image: 'http://dummyimage.com/176x100.png/dddddd/000000',
+        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
+      image: '../../../assets/img/1995.png',
       price: 2788,
       stock: 4,
       featured: true,
@@ -1028,7 +1028,7 @@ export class ProductService {
       name: 'Comradeship (Kameradschaft)',
       description:
         'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.',
-      image: 'http://dummyimage.com/167x100.png/dddddd/000000',
+      image: '../../../assets/img/1996.png',
       price: 3478,
       stock: 7,
       featured: true,
@@ -1040,7 +1040,7 @@ export class ProductService {
       name: "Liar's Dice",
       description:
         'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
-      image: 'http://dummyimage.com/233x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/1997.png',
       price: 3031,
       stock: 7,
       featured: true,
@@ -1052,7 +1052,7 @@ export class ProductService {
       name: 'Beaches',
       description:
         'Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.',
-      image: 'http://dummyimage.com/228x100.png/dddddd/000000',
+      image: '../../../assets/img/1998.png',
       price: 2954,
       stock: 3,
       featured: false,
@@ -1064,7 +1064,7 @@ export class ProductService {
       name: 'Knuckleball!',
       description:
         'Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.',
-      image: 'http://dummyimage.com/155x100.png/ff4444/ffffff',
+      image: '../../../assets/img/1999.png',
       price: 3089,
       stock: 4,
       featured: false,
@@ -1075,8 +1075,8 @@ export class ProductService {
       catId: 2,
       name: 'Reflecting Skin, The',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
-      image: 'http://dummyimage.com/119x100.png/cc0000/ffffff',
+        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae, Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
+      image: '../../../assets/img/2000.png',
       price: 2754,
       stock: 1,
       featured: true,
@@ -1088,7 +1088,7 @@ export class ProductService {
       name: 'Dilemma, The',
       description:
         'Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.',
-      image: 'http://dummyimage.com/181x100.png/dddddd/000000',
+      image: '../../../assets/img/2001.png',
       price: 2803,
       stock: 10,
       featured: false,
@@ -1100,7 +1100,7 @@ export class ProductService {
       name: 'Visual Acoustics',
       description:
         'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',
-      image: 'http://dummyimage.com/240x100.png/dddddd/000000',
+      image: '../../../assets/img/2002.png',
       price: 3109,
       stock: 1,
       featured: true,
@@ -1112,7 +1112,7 @@ export class ProductService {
       name: 'Color of Friendship, The',
       description:
         'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-      image: 'http://dummyimage.com/201x100.png/dddddd/000000',
+      image: '../../../assets/img/2003.png',
       price: 3011,
       stock: 9,
       featured: false,
@@ -1124,7 +1124,7 @@ export class ProductService {
       name: 'Tokyo Story (Tôkyô monogatari)',
       description:
         'Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.',
-      image: 'http://dummyimage.com/152x100.png/ff4444/ffffff',
+      image: '../../../assets/img/2004.png',
       price: 2757,
       stock: 8,
       featured: false,
@@ -1136,7 +1136,7 @@ export class ProductService {
       name: 'Love Me Tender',
       description:
         'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
-      image: 'http://dummyimage.com/227x100.png/dddddd/000000',
+      image: '../../../assets/img/2005.png',
       price: 3233,
       stock: 2,
       featured: false,
@@ -1148,7 +1148,7 @@ export class ProductService {
       name: 'Burnt Money (Plata Quemada)',
       description:
         'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',
-      image: 'http://dummyimage.com/130x100.png/dddddd/000000',
+      image: '../../../assets/img/2006.png',
       price: 3048,
       stock: 8,
       featured: false,
@@ -1160,7 +1160,7 @@ export class ProductService {
       name: 'Love, Marilyn',
       description:
         'Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.',
-      image: 'http://dummyimage.com/118x100.png/ff4444/ffffff',
+      image: '../../../assets/img/2007.png',
       price: 2871,
       stock: 8,
       featured: true,
@@ -1172,7 +1172,7 @@ export class ProductService {
       name: 'Trip to the Moon, A (Voyage dans la lune, Le)',
       description:
         'Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.',
-      image: 'http://dummyimage.com/219x100.png/dddddd/000000',
+      image: '../../../assets/img/2008.png',
       price: 3388,
       stock: 5,
       featured: true,
@@ -1184,7 +1184,7 @@ export class ProductService {
       name: 'Toast of New York, The',
       description:
         'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
-      image: 'http://dummyimage.com/153x100.png/ff4444/ffffff',
+      image: '../../../assets/img/2009.png',
       price: 3116,
       stock: 4,
       featured: false,
@@ -1196,7 +1196,7 @@ export class ProductService {
       name: 'Married Woman, A (Une femme mariée)',
       description:
         'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',
-      image: 'http://dummyimage.com/188x100.png/5fa2dd/ffffff',
+      image: '../../../assets/img/2010.png',
       price: 2703,
       stock: 2,
       featured: true,
