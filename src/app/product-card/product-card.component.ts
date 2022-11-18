@@ -8,21 +8,9 @@ import { ProductService } from '../service/product.service';
   styleUrls: ['./product-card.component.scss'],
 })
 export class ProductCardComponent implements OnInit {
-  @Input() movie: Product = {
-    id: 0,
-    catId: 0,
-    name: '',
-    description: '',
-    image: '',
-    price: 0,
-    stock: 0,
-    featured: false,
-    active: false,
-  };
+  @Input() movie: Product = new Product();
 
-  constructor(private productService: ProductService) {
-    // this.movie = productService.list[0];
-  }
+  constructor(private productService: ProductService) {}
 
   ngOnInit(): void {}
 }
