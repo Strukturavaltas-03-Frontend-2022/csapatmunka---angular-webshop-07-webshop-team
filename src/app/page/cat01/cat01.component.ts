@@ -9,6 +9,8 @@ import { ProductService } from 'src/app/service/product.service';
 })
 export class Cat01Component implements OnInit {
   list: Product[] = this.productService.list;
+  documentaryProducts: Product[] = this.productService.getDocumentaryProducts();
+  documentaryHighlihtedProducts: Product[] = this.productService.getDocumentaryHighlightedProducts()
 
   searchPhrase: string = '';
 

@@ -1,3 +1,4 @@
+import { isNgTemplate } from '@angular/compiler';
 import { Injectable } from '@angular/core';
 import { Category } from '../model/category';
 import { Product } from '../model/product';
@@ -6,6 +7,39 @@ import { Product } from '../model/product';
   providedIn: 'root',
 })
 export class ProductService {
+
+  getHomeProducts(): Product[] {
+    return this.list.filter((item: Product) => item.featured == true).sort(() => Math.random() - 0.5).slice(0, 5);
+  }
+
+  getDocumentaryHighlightedProducts(): Product[] {
+    return this.list.filter((item: Product) => item.featured == true && item.catId == 1).sort(() => Math.random() - 0.5).slice(0, 5);
+  }
+
+  getComedyHighlightedProducts(): Product[] {
+    return this.list.filter((item: Product) => item.featured == true && item.catId == 2).sort(() => Math.random() - 0.5).slice(0, 5);
+  }
+
+  getAdventureHighlightedProducts(): Product[] {
+    return this.list.filter((item: Product) => item.featured == true && item.catId == 3).sort(() => Math.random() - 0.5).slice(0, 5);
+  }
+
+  getHomeDiscountsProducts(): Product[] {
+    return this.list.sort(() => Math.random() - 0.5).slice(0, 5);
+  }
+
+  getDocumentaryProducts(): Product[]{
+    return this.list.filter((item: Product) => item.catId == 1).sort(() => Math.random() - 0.5);
+  }
+
+  getComedyProducts(): Product[]{
+    return this.list.filter((item: Product) => item.catId == 2).sort(() => Math.random() - 0.5);
+  }
+
+  getAdventureProducts(): Product[]{
+    return this.list.filter((item: Product) => item.catId == 3).sort(() => Math.random() - 0.5);
+  }
+
   list: Product[] = [
     {
       id: 1,

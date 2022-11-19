@@ -12,7 +12,9 @@ import { HomeComponent } from './page/home/home.component';
 import { Cat03Component } from './page/cat03/cat03.component';
 import { FilterPipe } from './pipe/filter.pipe';
 import { FilterCategoryPipe } from './pipe/filter-category.pipe';
-import { ProductCardComponent } from './product-card/product-card.component';
+import { ProductCardComponent } from './common/product-card/product-card.component';
+import { ProductScrollingComponent } from './common/product-scrolling/product-scrolling.component';
+import { ProductListViewComponent } from './common/product-list-view/product-list-view.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { ProductCardComponent } from './product-card/product-card.component';
     FilterPipe,
     FilterCategoryPipe,
     ProductCardComponent,
+    ProductScrollingComponent,
+    ProductListViewComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
