@@ -11,6 +11,10 @@ export class ProductService {
     return this.list.filter((item: Product) => item.featured == true).sort(() => 0.5 - Math.random()).slice(0, 5);
   }
 
+  getHomeDiscountsProducts(): Product[] {
+    return this.list.sort(() => 0.5 - Math.random()).slice(0, 5);
+  }
+
   list: Product[] = [
     {
       id: 1,
