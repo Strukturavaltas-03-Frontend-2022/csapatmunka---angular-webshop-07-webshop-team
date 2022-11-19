@@ -10,7 +10,7 @@ import { ProductService } from 'src/app/service/product.service';
 export class HomeComponent implements OnInit {
   list: Product[] = this.productService.list;
 
-  homeProducts: Product[] = this.productService.getHome();
+  homeProducts: Product[] = this.productService.getHomeProducts();
 
   constructor(private productService: ProductService) {}
 

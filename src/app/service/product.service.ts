@@ -7,7 +7,7 @@ import { Product } from '../model/product';
 })
 export class ProductService {
 
-  getHome(): Product[] {
+  getHomeProducts(): Product[] {
     return this.list.filter((item: Product) => item.featured == true).sort(() => 0.5 - Math.random()).slice(0, 5);
   }
 
