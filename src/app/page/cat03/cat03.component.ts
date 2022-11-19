@@ -10,6 +10,9 @@ import { ProductService } from 'src/app/service/product.service';
 export class Cat03Component implements OnInit {
   list: Product[] = this.productService.list;
 
+  adventureProducts: Product[] = this.productService.getAdventureProducts()
+  adventureHighlihtedProducts: Product[] = this.productService.getAdventureHighlightedProducts()
+
   searchPhrase: string = '';
 
   constructor(private productService: ProductService) {}
