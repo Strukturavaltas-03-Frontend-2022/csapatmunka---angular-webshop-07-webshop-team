@@ -17,6 +17,7 @@ export class ConfigService {
     { text: 'Documentary', link: '/cat01' },
     { text: 'Comedy', link: '/cat02' },
     { text: 'Adventure', link: '/cat03' },
+    { text: 'Admin', link: '/admin' }
   ];
 
   constructor() {}
