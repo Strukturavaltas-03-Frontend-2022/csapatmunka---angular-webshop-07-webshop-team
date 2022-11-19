@@ -16,6 +16,7 @@ import { ProductCardComponent } from './common/product-card/product-card.compone
 import { ProductScrollingComponent } from './common/product-scrolling/product-scrolling.component';
 import { ProductListViewComponent } from './common/product-list-view/product-list-view.component';
 import { AdminComponent } from './page/admin/admin.component';
+import { DataEditorComponent } from './common/data-editor/data-editor.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { AdminComponent } from './page/admin/admin.component';
     ProductScrollingComponent,
     ProductListViewComponent,
     AdminComponent,
+    DataEditorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
