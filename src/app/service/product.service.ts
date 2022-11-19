@@ -6,6 +6,11 @@ import { Product } from '../model/product';
   providedIn: 'root',
 })
 export class ProductService {
+
+  getHome(): Product[] {
+    return this.list.filter((item: Product) => item.featured == true).sort(() => 0.5 - Math.random()).slice(0, 5);
+  }
+
   list: Product[] = [
     {
       id: 1,
