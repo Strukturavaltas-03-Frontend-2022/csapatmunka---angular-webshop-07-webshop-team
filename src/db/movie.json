@@ -12,28 +12,6 @@
       "active": true
     },
     {
-      "id": 4,
-      "catId": 3,
-      "name": "MirrorMaMine2sk",
-      "description": "Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
-      "image": "../../../assets/img/1914.png",
-      "price": 3007,
-      "stock": 3,
-      "featured": false,
-      "active": false
-    },
-    {
-      "id": 5,
-      "catId": 3,
-      "name": "Flower of Evil, The (Fleur du mal, La)",
-      "description": "Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
-      "image": "../../../assets/img/1915.png",
-      "price": 2623,
-      "stock": 8,
-      "featured": false,
-      "active": true
-    },
-    {
       "id": 6,
       "catId": 3,
       "name": "Wanted! (Nachbarinnen)",
@@ -41,17 +19,6 @@
       "image": "../../../assets/img/1916.png",
       "price": 2846,
       "stock": 2,
-      "featured": false,
-      "active": false
-    },
-    {
-      "id": 7,
-      "catId": 1,
-      "name": "RFK Must Die: The Assassination of Bobby Kennedy",
-      "description": "Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
-      "image": "../../../assets/img/1917.png",
-      "price": 3063,
-      "stock": 8,
       "featured": false,
       "active": false
     },
@@ -74,17 +41,6 @@
       "image": "../../../assets/img/1919.png",
       "price": 2783,
       "stock": 10,
-      "featured": true,
-      "active": true
-    },
-    {
-      "id": 10,
-      "catId": 3,
-      "name": "Looker",
-      "description": "Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
-      "image": "../../../assets/img/1920.png",
-      "price": 3122,
-      "stock": 6,
       "featured": true,
       "active": true
     },
@@ -892,17 +848,6 @@
       "active": false
     },
     {
-      "id": 84,
-      "catId": 3,
-      "name": "Lunch Break",
-      "description": "In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",
-      "image": "../../../assets/img/1994.png",
-      "price": 3351,
-      "stock": 2,
-      "featured": true,
-      "active": false
-    },
-    {
       "id": 85,
       "catId": 2,
       "name": "Rumble on the Docks",
@@ -1076,6 +1021,39 @@
       "price": 2703,
       "stock": 2,
       "featured": true,
+      "active": false
+    },
+    {
+      "id": 101,
+      "catId": 0,
+      "name": "enyem",
+      "description": "yvcyv",
+      "image": "",
+      "price": 0,
+      "stock": 0,
+      "featured": false,
+      "active": false
+    },
+    {
+      "id": 102,
+      "catId": 0,
+      "name": "newMovie",
+      "description": "",
+      "image": "",
+      "price": 0,
+      "stock": 0,
+      "featured": false,
+      "active": false
+    },
+    {
+      "id": 103,
+      "catId": 0,
+      "name": "neew",
+      "description": "",
+      "image": "",
+      "price": 0,
+      "stock": 0,
+      "featured": false,
       "active": false
     }
   ]
