@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { map, Observable } from 'rxjs';
 import { Product } from 'src/app/model/product';
 import { ProductService } from 'src/app/service/product.service';
 
@@ -10,8 +11,14 @@ import { ProductService } from 'src/app/service/product.service';
 export class HomeComponent implements OnInit {
   list: Product[] = this.productService.list;
 
-  homeProducts: Product[] = this.productService.getHomeProducts();
-  homeDiscountProducts: Product[] = this.productService.getHomeDiscountsProducts();
+  homeProducts$ : Observable<Product[]> = this.productService.getAll()
+                                          .pipe(map((item) => item.filter((mov) => mov.featured === true)
+                                          .sort(() => Math.random() - 0.5).slice(0, 5)));
+
+  homeDiscountProducts$ : Observable<Product[]> = this.productService.getAll()
+                                          .pipe(map((item) => item.sort(() => Math.random() - 0.5)
+                                          .slice(0, 5)));
+
 
   constructor(private productService: ProductService) {}
 

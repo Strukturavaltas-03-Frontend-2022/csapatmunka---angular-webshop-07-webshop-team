@@ -1,5 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { isNgTemplate } from '@angular/compiler';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 import { Category } from '../model/category';
 import { Product } from '../model/product';
 
@@ -7,37 +9,26 @@ import { Product } from '../model/product';
   providedIn: 'root',
 })
 export class ProductService {
+  apiUrl: string = 'http://localhost:3000/movies';
 
-  getHomeProducts(): Product[] {
-    return this.list.filter((item: Product) => item.featured == true).sort(() => Math.random() - 0.5).slice(0, 5);
+  getAll(page: string = ''): Observable<Product[]> {
+    return this.http.get<Product[]>(`${this.apiUrl}${page}`);
   }
 
-  getDocumentaryHighlightedProducts(): Product[] {
-    return this.list.filter((item: Product) => item.featured == true && item.catId == 1).sort(() => Math.random() - 0.5).slice(0, 5);
+  get(id: number): Observable<Product> {
+    return this.http.get<Product>(`${this.apiUrl}/${id}`);
   }
 
-  getComedyHighlightedProducts(): Product[] {
-    return this.list.filter((item: Product) => item.featured == true && item.catId == 2).sort(() => Math.random() - 0.5).slice(0, 5);
+  create(product: Product): Observable<Product> {
+    return this.http.post<Product>(this.apiUrl, product);
   }
 
-  getAdventureHighlightedProducts(): Product[] {
-    return this.list.filter((item: Product) => item.featured == true && item.catId == 3).sort(() => Math.random() - 0.5).slice(0, 5);
+  update(product: Product): Observable<Product> {
+    return this.http.patch<Product>(`${this.apiUrl}/${product.id}`, product);
   }
 
-  getHomeDiscountsProducts(): Product[] {
-    return this.list.sort(() => Math.random() - 0.5).slice(0, 5);
-  }
-
-  getDocumentaryProducts(): Product[]{
-    return this.list.filter((item: Product) => item.catId == 1).sort(() => Math.random() - 0.5);
-  }
-
-  getComedyProducts(): Product[]{
-    return this.list.filter((item: Product) => item.catId == 2).sort(() => Math.random() - 0.5);
-  }
-
-  getAdventureProducts(): Product[]{
-    return this.list.filter((item: Product) => item.catId == 3).sort(() => Math.random() - 0.5);
+  remove(product: Product): Observable<Product> {
+    return this.http.delete<Product>(`${this.apiUrl}/${product.id}`);
   }
 
   list: Product[] = [
@@ -1254,5 +1245,5 @@ export class ProductService {
     },
   ];
 
-  constructor() {}
+  constructor(private http: HttpClient) {}
 }

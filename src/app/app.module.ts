@@ -15,6 +15,8 @@ import { FilterCategoryPipe } from './pipe/filter-category.pipe';
 import { ProductCardComponent } from './common/product-card/product-card.component';
 import { ProductScrollingComponent } from './common/product-scrolling/product-scrolling.component';
 import { ProductListViewComponent } from './common/product-list-view/product-list-view.component';
+import { AdminComponent } from './page/admin/admin.component';
+import { DataEditorComponent } from './common/data-editor/data-editor.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { ProductListViewComponent } from './common/product-list-view/product-lis
     ProductCardComponent,
     ProductScrollingComponent,
     ProductListViewComponent,
+    AdminComponent,
+    DataEditorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],

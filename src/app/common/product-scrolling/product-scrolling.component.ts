@@ -11,7 +11,7 @@ export class ProductScrollingComponent implements OnInit {
 
   constructor(private productService: ProductService) { }
 
-  @Input() products: Product[] = [];
+  @Input() products: Product[] | null = []
 
   ngOnInit(): void {}
 
