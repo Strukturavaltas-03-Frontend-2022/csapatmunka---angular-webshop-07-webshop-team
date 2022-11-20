@@ -13,6 +13,8 @@ export class AdminComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  productList$: Observable<Product[]> = this.productService.getAll();
+
   onDelete(prod: Product): void {
     this.productService
       .remove(prod)
@@ -20,6 +22,4 @@ export class AdminComponent implements OnInit {
   }
 
   searchPhrase: string = '';
-
-  productList$: Observable<Product[]> = this.productService.getAll();
 }
