@@ -1,1 +1,58 @@
-<app-data-editor></app-data-editor>
+<div class="row mt-3">
+  <div class="col-12">
+    <div class="input-group mb-3">
+      <input
+        [(ngModel)]="searchPhrase"
+        type="text"
+        class="form-control"
+        placeholder="Enter search phrase for movie title"
+        aria-label="Enter search phrase for movie title"
+      />
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12">
+    <table class="table table-striped table-hover">
+      <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Featured</th>
+        <th>Active</th>
+        <th>Actions</th>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="
+            let product of productList$ | async | filter: searchPhrase:'name'
+          "
+        >
+          <td>{{ product.id }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.description }}</td>
+          <td>{{ product.price }}</td>
+          <td>{{ product.stock }}</td>
+          <td>{{ product.featured }}</td>
+          <td>{{ product.active }}</td>
+          <td>
+            <div class="btn-group">
+              <button class="btn btn-success">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </button>
+              <button class="btn btn-info">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+              </button>
+              <button (click)="onDelete(product)" class="btn btn-danger">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
