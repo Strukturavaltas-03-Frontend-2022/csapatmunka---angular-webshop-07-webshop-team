@@ -4,7 +4,7 @@
   </div>
 </div>
 
-<app-product-scrolling class="col" [products]="documentaryHighlihtedProducts"></app-product-scrolling>
+<app-product-scrolling class="col" [products]="documentaryHighlihtedProducts$ | async"></app-product-scrolling>
 
 <div class="row">
   <div>
@@ -12,4 +12,4 @@
   </div>
 </div>
 
-<app-product-list-view [products]="documentaryProducts"></app-product-list-view>
+<app-product-list-view [products]="documentaryProducts$ | async"></app-product-list-view>

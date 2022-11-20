@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { map, Observable } from 'rxjs';
 import { Product } from 'src/app/model/product';
 import { ProductService } from 'src/app/service/product.service';
 
@@ -9,8 +10,14 @@ import { ProductService } from 'src/app/service/product.service';
 })
 export class Cat01Component implements OnInit {
   list: Product[] = this.productService.list;
-  documentaryProducts: Product[] = this.productService.getDocumentaryProducts();
-  documentaryHighlihtedProducts: Product[] = this.productService.getDocumentaryHighlightedProducts()
+
+  documentaryProducts$ : Observable<Product[]> = this.productService.getAll()
+                                          .pipe(map((item) => item.filter((mov) => mov.catId === 1)
+                                          .sort(() => Math.random() - 0.5)));
+
+  documentaryHighlihtedProducts$ : Observable<Product[]> = this.productService.getAll()
+                                          .pipe(map((item) => item.filter((mov) => mov.featured == true && mov.catId === 1)
+                                          .sort(() => Math.random() - 0.5).slice(0, 5)));
 
   searchPhrase: string = '';
 

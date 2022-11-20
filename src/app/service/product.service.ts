@@ -1,5 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { isNgTemplate } from '@angular/compiler';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 import { Category } from '../model/category';
 import { Product } from '../model/product';
 
@@ -7,6 +9,27 @@ import { Product } from '../model/product';
   providedIn: 'root',
 })
 export class ProductService {
+  apiUrl: string = 'http://localhost:3000/movies';
+
+  getAll(page: string = ''): Observable<Product[]> {
+    return this.http.get<Product[]>(`${this.apiUrl}${page}`);
+  }
+
+  get(id: number): Observable<Product> {
+    return this.http.get<Product>(`${this.apiUrl}/${id}`);
+  }
+
+  create(product: Product): Observable<Product> {
+    return this.http.post<Product>(this.apiUrl, product);
+  }
+
+  update(product: Product): Observable<Product> {
+    return this.http.patch<Product>(`${this.apiUrl}/${product.id}`, product);
+  }
+
+  remove(product: Product): Observable<Product> {
+    return this.http.delete<Product>(`${this.apiUrl}/${product.id}`);
+  }
 
   getHomeProducts(): Product[] {
     return this.list.filter((item: Product) => item.featured == true).sort(() => Math.random() - 0.5).slice(0, 5);
@@ -1254,5 +1277,5 @@ export class ProductService {
     },
   ];
 
-  constructor() {}
+  constructor(private http: HttpClient) {}
 }

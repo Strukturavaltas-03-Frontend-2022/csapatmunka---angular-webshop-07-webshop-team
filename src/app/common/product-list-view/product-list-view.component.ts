@@ -9,7 +9,7 @@ import { Product } from 'src/app/model/product';
 })
 export class ProductListViewComponent implements OnInit {
 
-  @Input() products: Product[] = [];
+  @Input() products: Product[] | null = []
 
   searchPhrase: string = '';
 
