@@ -43,7 +43,10 @@
               <button class="btn btn-success">
                 <i class="fa fa-plus" aria-hidden="true"></i>
               </button>
-              <button class="btn btn-info">
+              <button
+                [routerLink]="['/product/edit', product.id]"
+                class="btn btn-info"
+              >
                 <i class="fa fa-pencil" aria-hidden="true"></i>
               </button>
               <button (click)="onDelete(product)" class="btn btn-danger">
