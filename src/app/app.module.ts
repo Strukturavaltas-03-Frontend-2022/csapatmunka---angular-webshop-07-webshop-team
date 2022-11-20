@@ -17,6 +17,7 @@ import { ProductScrollingComponent } from './common/product-scrolling/product-sc
 import { ProductListViewComponent } from './common/product-list-view/product-list-view.component';
 import { AdminComponent } from './page/admin/admin.component';
 import { DataEditorComponent } from './common/data-editor/data-editor.component';
+import { NewComponent } from './common/new/new.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { DataEditorComponent } from './common/data-editor/data-editor.component'
     ProductListViewComponent,
     AdminComponent,
     DataEditorComponent,
+    NewComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],

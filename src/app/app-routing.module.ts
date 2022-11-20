@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DataEditorComponent } from './common/data-editor/data-editor.component';
+import { NewComponent } from './common/new/new.component';
 import { AdminComponent } from './page/admin/admin.component';
 import { Cat01Component } from './page/cat01/cat01.component';
 import { Cat02Component } from './page/cat02/cat02.component';
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'admin',
     component: AdminComponent,
+  },
+  {
+    path: 'new',
+    component: NewComponent,
   },
   {
     path: 'product/edit/:id',
